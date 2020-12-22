@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ElAl_Quiz</string>
+    <string name="Option1">option1</string>
+    <string name="total">Всего вопросов:</string>
+    <string name="correct">Правильно:</string>
+    <string name="wrong">Неправильно:</string>
+    <string name="textView4">всего</string>
+    <string name="textView5">правильно</string>
+    <string name="textView6">неправильно</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:background="@color/dark">
+
+    <TextView
+        android:text="Авторизация"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="150dp"/>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter yout email"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:background="@color/gray"
+        />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter yout password"
+            android:background="@color/gray"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:id="@+id/sign_in"
+            android:textAlignment="center"
+            android:text="Войти"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/circle"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:gravity="center_horizontal" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:id="@+id/sign_up"
+            android:textAlignment="center"
+            android:text="Регистироваться"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/circle"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+</RelativeLayout>

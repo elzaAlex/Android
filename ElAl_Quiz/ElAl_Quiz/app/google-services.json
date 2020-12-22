@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "980281686390",
+    "project_id": "elal-quiz",
+    "storage_bucket": "elal-quiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980281686390:android:5fefc75ec1d4943f812257",
+        "android_client_info": {
+          "package_name": "com.example.elal_quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980281686390-96skn8a96l3d2e9d6jth2j9c8s23ab8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elal_quiz",
+            "certificate_hash": "103961df168e221733847648a830a78b00c49a68"
+          }
+        },
+        {
+          "client_id": "980281686390-a0jhd529fufvo3ebad8nkgm45716gu6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBamTdh3CrG4DZd2ZPXE8SfjdT91TAAGeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980281686390-a0jhd529fufvo3ebad8nkgm45716gu6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/drawShape"
+        android:icon="@drawable/ic_brush"
+        android:title="@string/bottom_bar_menu_shape_select"
+        android:contentDescription="@string/bottom_bar_menu_shape_select"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/paintSize"
+        android:icon="@drawable/ic_brush_size"
+        android:title="@string/bottom_bar_menu_paint_size"
+        android:contentDescription="@string/bottom_bar_menu_paint_size"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/colorPicker"
+        android:icon="@drawable/ic_color"
+        android:title="@string/bottom_bar_menu_color_picker"
+        android:contentDescription="@string/bottom_bar_menu_color_picker"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/uploadImage"
+        android:icon="@drawable/ic_upload"
+        android:title="@string/bottom_bar_menu_upload_image"
+        android:contentDescription="@string/bottom_bar_menu_upload_image"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/clear"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/bottom_bar_menu_clear"
+        android:contentDescription="@string/bottom_bar_menu_clear"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/ic_save"
+        android:title="@string/bottom_bar_menu_save"
+        android:contentDescription="@string/bottom_bar_menu_save"
+        app:showAsAction="always">
+    </item>
+</menu>

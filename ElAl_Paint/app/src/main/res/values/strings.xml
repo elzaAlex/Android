@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ElPaint</string>
+    <string name="bottom_bar_menu_shape_select">Выбор формы</string>
+    <string name="bottom_bar_menu_paint_size">Размер кисти</string>
+    <string name="bottom_bar_menu_color_picker">Выбор цвета</string>
+    <string name="bottom_bar_menu_upload_image">Загрузить картинку</string>
+    <string name="bottom_bar_menu_more">Больше</string>
+    <string name="bottom_bar_navigation">Навигация</string>
+    <string name="bottom_sheet_dialog_shape_rectangle">Прямоугольник</string>
+    <string name="bottom_sheet_dialog_shape_square">Квадрат</string>
+    <string name="bottom_sheet_dialog_shape_circle">Круг</string>
+    <string name="bottom_sheet_dialog_upload_camera">Камера</string>
+    <string name="bottom_sheet_dialog_upload_gallery">Галерея</string>
+    <string name="bottom_bar_menu_clear">Очистить</string>
+    <string name="bottom_bar_menu_save">Сохранить</string>
+    <string name="bottom_sheet_brush_size_cancel_button_text">Отмена</string>
+    <string name="bottom_sheet_brush_size_confirm_button_text">Применить</string>
+</resources>
